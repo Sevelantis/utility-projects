@@ -6,3 +6,4 @@
  - Język skryptowy `Bash`
  - Kontrola wersji `Git`
  - Konteneryzacja: `Docker`
+ - Języki programowania: `Python`
