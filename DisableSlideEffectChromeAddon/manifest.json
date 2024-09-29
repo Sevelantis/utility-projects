@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Disable Slide Animations",
+  "version": "1.0",
+  "description": "Disables sliding animations on websites.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nieruchomosci-online.pl/*",
+        "https://wroclaw.nieruchomosci-online.pl/*",
+        "https://www.otodom.pl/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
